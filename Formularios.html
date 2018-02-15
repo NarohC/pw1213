@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios</title>
+	</head>
+	<body>
+		Formulario: Contenedor que sirve para encapsular metodos de entrada de datos del usuario <br>
+		En el formulario se puede: <br>
+		<ol>
+			<li>Capturar Datos</li>
+			<li>Validar lo que se ingresa</li>
+			<li>Enviar a proceso</li>
+			<li>Reiniciar la captura</li>
+		</ol>
+		<form action="anclas.html" method="post">
+			<input type="text" name="txtNumeroConrol" placeholder="N&uacute;mero de Control">
+			<input type="Password" name="txtClave" placeholder="Contrase&nacute;a" required autofocus>
+			<input type="Number" name="txrPromedio" placeholder="Promedio">
+			<input type="Date" name="txtFecha">
+			<input type="Color" name="txtColor">
+			<input type="Email" name="txtCorreo">
+			<input type="Search" name="txtBuscar">
+			<!-- Dispara accion de form -->
+			<input type="submit" Value="Enviar">
+			<!-- Reinicia el imput -->
+			<input type="reset" value="borrar">
+			<!-- es un simple boton -->
+			<input type="button" value="Enviar">
+		</form>
+	</body>
+</html>
